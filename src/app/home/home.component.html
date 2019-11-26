@@ -1,0 +1,16 @@
+<h3>Home</h3>
+
+
+<ng-container *appShowAuthed="true">
+    <div>
+        LOGOUT BUTTON
+    </div>
+    <button id="logout-button" class="logout">LOGOUT</button>
+</ng-container>
+
+<ng-container *appShowAuthed="false">
+    <div>
+        LOGIN BUTTON
+    </div>
+    <button id="login-button" class="login">LOGIN</button>
+</ng-container>
